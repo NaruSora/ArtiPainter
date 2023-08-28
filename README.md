@@ -123,6 +123,4 @@ AI illustrate assistant
 2. twitter:[@NRSora5](https://twitter.com/NRSora5)
 3. pixiv:[鸣空NRSora](https://www.pixiv.net/users/4855599)
 
-## 支持我的开发：
-<img src="https://github.com/NaruSora/document/blob/main/IMG_1.png?raw=true" alt="Wechat Receipt QR code" width="200" height="200">
 
