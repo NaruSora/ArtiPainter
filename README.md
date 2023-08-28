@@ -76,6 +76,7 @@ AI illustrate assistant
 10. 更改模型需要在 [http://127.0.0.1:7860/](http://127.0.0.1:7860/) 手动切换
 
 
+
 ## 使用方法
 
 ### 1. 環境のインストールと設定
@@ -121,6 +122,9 @@ AI illustrate assistant
 1. email:narusoracode@gmail.com
 2. twitter:[@NRSora5](https://twitter.com/NRSora5)
 3. pixiv:[鸣空NRSora](https://www.pixiv.net/users/4855599)
+
+## 支持我的开发：
+<img src="https://github.com/NaruSora/document/blob/main/IMG_1.png?raw=true" alt="Wechat Receipt QR code" width="200" height="200">
 
 ## supporting developer
 1. [on gumroad](https://narusora.gumroad.com/)
