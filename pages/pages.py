@@ -1,0 +1,8 @@
+from .ArtiPainter import ArtiPainterPage,script
+from .ArtiPainterViewer import ArtiPainter_Viewer
+
+
+script.btn_state_update.artipainter_start_function=ArtiPainterPage.painting_start
+script.btn_state_update.artipainter_stop_function=ArtiPainterPage.painting_stop
+script.btn_state_update.artipainter_page=ArtiPainterPage
+script.btn_state_update.function_bind()
