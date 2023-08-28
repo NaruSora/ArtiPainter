@@ -1,18 +1,29 @@
 # ArtiPainter
 AI illustrate assistant
 
+<p align="center">
+  <br>
+  <br>
+  <br>
+  <span style="font-size:32px;"><strong>Art is a form of communication, the pen and paper will never become obsolete.</strong></span>
+  <br>
+  <br>
+  <br>
+</p>
+
+
 ## Instructions
 
 ### 1. Installation and Setup
 1. Download and install [stable-diffusion-webui](https://github.com/AUTOMATIC1111/stable-diffusion-webui).
 2. Enable API: Edit `webui-user.bat` and add `--api` to the `set COMMANDLINE_ARGS` line.
-3. Download and place the stable diffusion model in `stable-diffusion-webui/models/Stable-diffusion/` folder, then double-click `webui-user.bat` to launch the editor.
+3. Download and place the stable diffusion model in `stable-diffusion-webui/models/Stable-diffusion/` folder, then double-click `webui-user.bat` to launch it.
 4. Open your browser and go to [http://127.0.0.1:7860/](http://127.0.0.1:7860/) to configure the downloaded model.
 5. Download and install Krita from [https://krita.org/](https://krita.org/).
 6. Launch Krita and install the ArtiPainter plugin. For instructions on installing Krita plugins, refer to [this link](https://docs.krita.org/en/user_manual/python_scripting/install_custom_python_plugin.html#how-to-install-a-python-plugin).
 
 ### 2. ArtiPainter Usage
-1. The software consists of three parts:
+1. The plugin consists of three parts:
    1. Input layer group "↓ Input" and output layer "↑ Output": The input layer group sends compositions to stable diffusion for processing based on parameters, and the processing results are returned to the output layer.
    2. ArtiPainter Viewer: Preview the generated image.
    3. Parameter Configuration Panel: Configure stable diffusion parameters, which are consistent with stable-diffusion-webui.
@@ -21,15 +32,15 @@ AI illustrate assistant
 4. Before leaving Krita, click "Stop Painting" to disconnect the link.
 
 ### 3. Considerations
-1. Confirm that the webui's default URL is [http://127.0.0.1:7860/](http://127.0.0.1:7860/). If not, manually adjust the settings.
-2. Do not connect "Start Painting" without creating a canvas.
+1. Confirm that the webui's default URL is [http://127.0.0.1:7860/](http://127.0.0.1:7860/). If not, need manually adjust the settings.
+2. Do not connect "Start Painting" without creating a canvas document.
 3. Do not paint on the stable diffusion's output layer.
 4. Do not delete occupied output layers during link runtime.
 5. Do not input symbols other than integers in the seed field, as it may crash.
-6. The output layer of stable diffusion and the input layer group are identified by name. Renaming is possible in link enablement, but if names change after restarting the link, new input/output layers/groups will be created.
+6. The output layer of stable diffusion and the input layer group are identified by name. Renaming is ok in link enablement, but if names change after restarting the link, new input/output layers/groups will be created.
 7. The graphics tablet may experience lag due to compatibility issues with drawing drivers. Separating the tablet driver and Krita onto different CPUs might solve this problem.
 8. Efficiency depends on GPU performance. Inputting large-sized images may exceed VRAM capacity.
-9. Currently, script execution is not supported. For Lora and Addition Net, please use prompt.
+9. Currently, script execution is not supported. For Lora and Addition Net, please use prompt panel.
 10. To change models, manually switch them at [http://127.0.0.1:7860/](http://127.0.0.1:7860/).
 
 
@@ -61,7 +72,7 @@ AI illustrate assistant
 6. stable diffusion 的输出图层与输入图层组是按照名称识别的，在链接启用中可以重命名，但重启链接后如果名称已经改变，会新建新的输入输出图层/图层组
 7. 数位板有时会卡顿，绘画驱动的兼容性问题，将数位板驱动与 Krita 分隔到不同 CPU 可能会解决这个问题
 8. 运行效率取决于显卡性能，大尺寸图像的输入可能会超出显存
-9. 当前不支持脚本 script，Lora，Addtion Net 请通过 prompt 启用
+9. 当前不支持脚本 script，Lora，Addtion Net 请通过 prompt 面板启用
 10. 更改模型需要在 [http://127.0.0.1:7860/](http://127.0.0.1:7860/) 手动切换
 
 
@@ -94,7 +105,7 @@ AI illustrate assistant
 7. ペンタブレットが遅くなることがあります。描画ドライバの互換性の問題です。ペンタブレットドライバとKritaを異なるCPUに分離すると問題が解決する可能性があります。
 8. 他のKritaプラグインと互換性の問題があるかもしれません。Ten Brush はKritaをクラッシュさせる可能性があります（低確率）（原因は不明）。
 9. 実行効率はGPUの性能に依存し、大きなサイズの画像の入力はVRAMを超える可能性があります。
-10. 現在、スクリプトやLora、Addtion Netはサポートされていません。これらを使用するにはpromptを介して有効にしてください。
+10. 現在、スクリプトやLora、Addtion Netはサポートされていません。promptパネルを使用してください。
 11. モデルを変更するには、[http://127.0.0.1:7860/](http://127.0.0.1:7860/) で手動で切り替える必要があります。
 
 ## Credits
