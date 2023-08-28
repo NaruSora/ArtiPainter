@@ -126,7 +126,3 @@ AI illustrate assistant
 ## 支持我的开发：
 <img src="https://github.com/NaruSora/document/blob/main/IMG_1.png?raw=true" alt="Wechat Receipt QR code" width="200" height="200">
 
-## supporting developer
-1. [on gumroad](https://narusora.gumroad.com/)
-2. [on patron](patreon.com/NaruSora)
-
