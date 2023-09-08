@@ -12,9 +12,7 @@ AI illustrate assistant
 </p>
 
 ## Tutorial video
-[![Final video of fixing issues in your code in VS Code]
-(https://img.youtube.com/vi/d69TTxyNhmE/maxresdefault.jpg)]
-(https://www.youtube.com/watch?v=d69TTxyNhmE)
+[![tutorial](https://img.youtube.com/vi/d69TTxyNhmE/maxresdefault.jpg)](https://www.youtube.com/watch?v=d69TTxyNhmE)
 
 ## Instructions
 
