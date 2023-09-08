@@ -12,7 +12,9 @@ AI illustrate assistant
 </p>
 
 ## Tutorial video
-<iframe width="560" height="315" src="https://www.youtube.com/watch?v=d69TTxyNhmE" frameborder="0" allowfullscreen></iframe>
+[![Final video of fixing issues in your code in VS Code]
+(https://img.youtube.com/vi/d69TTxyNhmE/maxresdefault.jpg)]
+(https://www.youtube.com/watch?v=d69TTxyNhmE)
 
 ## Instructions
 
